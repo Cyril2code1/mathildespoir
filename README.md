@@ -16,3 +16,9 @@
 (navbar)
   codage html + bootstrap avec mise en forme sommaire
   
+- Mise en place de la section <main>:
+(master)
+  ajout des textes
+  ajout des images
+  ajout des boutons
+  

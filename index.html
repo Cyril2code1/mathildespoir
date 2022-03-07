@@ -5,21 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- bootstrap 5 css -->
+<!-- bootstrap 5 css -->
     <link
       rel="stylesheet"
       href="./bootstrap-5.1.3-dist/css/bootstrap.min.css"
     />
 
-    <!-- favicon -->
+<!-- favicon -->
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
 
     <title>Mathild'espoir - association de soutien à Mathilde</title>
   </head>
   <body>
-    <header>
+<!-- home anchor -->
+    <header id="accueil">
+
+<!-- navbar start -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
+<!-- navbar toggler button -->
           <button
           class="navbar-toggler"
           type="button"
@@ -31,10 +35,12 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+<!-- navbar brand -->
           <a class="navbar-brand" href="#">
             <img src="./img/logo.jpg" alt="logo de l'association" width="45" height="36" class="d-inline-block align-text-top">
             Mathild'espoir
-          </a>  
+          </a>
+<!-- navbar collapsable menu -->
           <div class="collapse navbar-collapse" id="burgerized">
             <ul class="navbar-nav mx-lg-auto">
               <li class="nav-item">
@@ -51,13 +57,73 @@
               </li>
             </ul>
           </div>
+<!-- 'make a donation' button -->
           <button>
             <a href="#">Faire un don</a>
           </button>
         </div>
-
       </nav>
     </header>
+
+    <main>
+      <article>
+        <section>
+          <figure class="figure">
+            <img class="figure.img img-fluid rounded-3" src="./img/photo.jpg" alt="photo de Mathilde">
+            <figcaption class="figure-caption text-end">Mathilde</figcaption>
+          </figure>
+          <p>Bonjour, je m’appelle Mathilde,</p> 
+          <p>je suis née le 20 octobre 2012 pour la plus grande joie de ma famille.</p> 
+          <p>Peu après ma naissance, les médecins nous ont annoncé que j’avais une particularité : une mutation du gène ATP1A3.</p>
+          <p>Cette mutation génétique est à l’origine de ma maladie : <strong>L'HÉMIPLÉGIE ALTERNANTE DE L’ENFANCE</strong>.</p> 
+          <p>Ma maladie fait de moi quelqu’un d’unique , je suis une petite fille pleine de vie , joyeuse, souriante qui aime la vie.</p>
+          <p>Aujourd’hui J’ai besoin de matériel médical spécifique à mon handicap pour assurer mon bien-être et mon évolution au quotidien.</p>
+          <p>Malheureusement ce matériel est très coûteux et n’est pas toujours pris en compte ou en partie par la sécurité sociale.</p>
+          <p>Ma famille et mes amis ont créé cette association :<em> MATHILD'ESPOIR </em>afin de participer à mon bien être dans la vie de tous les jours.</p>
+          <p>Par cette association nous espérons faire connaître du grand public cette maladie qui est la mienne dans l’espoir de prouver que malgré ma différence je suis une petite fille épanouie et pleine de vie.</p> 
+          
+          <button mx-auto><a href="#accueil">Retour</a></button>
+        </section>
+
+<!-- illness anchor              -->
+        <section id="ma_maladie">
+          <img class="img-fluid rounded-circle mx-auto d-block" style="width: 150px; height: 150px" src="./img/logo.jpg" alt="logo de l'asociation">
+          <dl>
+            <dt><h3>L'hémiplégie alternante de l'enfance</h3></dt>
+              <dd>
+          L'<strong>hémiplégie alternante de l'enfance (HAE)</strong> est une maladie neurodéveloppementale rare qui se caractérise par une hémiplégie périodique et des troubles paroxystiques, un retard persistant du développement et un déficit cognitif.
+              </dd>
+          </dl>                
+          <p> L’hémiplégie alternante de l’enfance (HAE) est une pathologie neurologique rare puisqu’elle touche environ 1 individu sur 1 000000.</p>
+          <p> Les premiers cas ont été décrits en 1971 par les docteurs Verret et Steele.</p>
+          <p> En France, seuls une centaine de patients sont concernés par cette pathologie.</p>
+          <p> La maladie se manifeste dès le plus jeune âge, toujours pendant la première année de vie voire même dans les 6 premiers mois, et reste présente à l’âge adulte.</p>
+          <p><u> L’hémiplégie alternante peut se présenter sous différentes formes :</u>
+          <ul>  
+            <li> <dl><dt>crise d’hémiparésie</dt><dd>perte de force musculaire d’un côté du corps</dd></dl></li>
+            <li><dl><dt>crise d’hémiplégie</dt><dd>paralysie d’un côté du corps</dd></dl></li>  
+            <li><dl><dt>crise d’hémidystonie</dt><dd>spasmes musculaires affectant un seul côté du corps</dd></dl></li>
+            <li><b>crise de paralysie</b> avec des troubles de la déglutition et du système nerveux autonome (pâleur, trouble du rythme cardiaque, etc.)</li>
+            <li><b>crise d’épilepsie</b> ou un état de mal épileptique</li>
+          </ul>
+          </p>
+          <p> Certains facteurs semblent être déclenchant chez les patients, par exemple la fatigue, une émotion, l’eau, le chaud ou au contraire le froid, un stress, une activité physique, etc.</p>
+          <p> L’origine de l’hémiplégie alternante fut longtemps inconnue. <br> Trois gènes (CACNA1A, SLC1A3, ATP1A2) avaient cependant déjà été identifiés dans quelques cas. <br> Ce n’est que récemment que le gène ATP1A31 à l’origine de 75% des cas d’hémiplégie alternante a été identifié. <br> Ce dernier est impliqué dans la production d’une protéine qui joue un rôle très important dans l’excitabilité neuronale.</p>
+          <p> L’évolution de cette maladie est lente et variable d’un individu à un autre.</p>
+            
+         <button mx-auto><a href="#accueil">Retour</a></button>  
+        </section>
+      </article>
+
+<!-- event anchor       -->
+      <aside id="evenement">
+        <article>
+          <img class="img-fluid d-block mx-auto" src="./img/les_iguanes.png" alt="logo_les_iguanes">
+         <p>Concert de charité pour <em>Mathild'espoir</em> avec le retour exceptionnel du groupe de rock "<em>Les Iguanes</em>" </p>
+         <button> En savoir +</button>
+        </article>
+      </aside>
+    </main>
     <!-- bootstrap 5 bundle js -->
     <script src="./bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
   </body>
