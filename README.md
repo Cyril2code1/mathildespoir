@@ -26,3 +26,11 @@
 (footer)
   ajout du lien facebook
   codage du formulaire de contact
+
+- Création de la page evenement.html
+(evenement)
+  création d'evenement.html
+  mise en place d'html5
+  integration de bootstrap dans le code
+  ajout du contenu
+  lien index.html -> evenement.html
