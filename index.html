@@ -123,8 +123,46 @@
          <button> En savoir +</button>
         </article>
       </aside>
+
+<!-- footer anchor       -->
+      <footer id="footer">
+        <p class="fw-bold">Nous rejoindre sur Facebook: 
+          <a href="https://www.facebook.com/people/MathildEspoir/100074102922035/" class="btn btn-primary" role="button" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" 
+              width="25" 
+              height="25" 
+              fill="currentColor" 
+              class="bi bi-facebook" 
+              viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+          </a>
+        </p>
+        <form action="#" method="post">         
+            <p class="fw-bold">Nous envoyez un message:</p>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nom</label>
+              <input type="text" class="form-control" id="name" placeholder="prénom nom" name="name" aria-describedby="nameInfo" required>
+              <div id="nameInfo" class="form-text">Renseignez au moins un prénom ou un pseudo svp</div>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="exemple@email.com" name="email" required>
+            </div>
+            <div class="mb-1">
+              <label for="message" class="form-label">Votre message</label>
+              <textarea name="message" class="form-control" id="message" rows="10" required></textarea>
+            </div>
+            <button type="submit">Envoyer</button>          
+        </form>
+
+<!-- Copyright -->
+        <div class="text-center p-3 bg-dark mt-3">
+          <p class="text-light">© 2022 Copyright: Mathild'espoir </p>
+        </div>     
+      </footer>
     </main>
-    <!-- bootstrap 5 bundle js -->
+<!-- bootstrap 5 bundle js -->
     <script src="./bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

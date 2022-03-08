@@ -21,4 +21,8 @@
   ajout des textes
   ajout des images
   ajout des boutons
-  
+
+- Mise en place du footer:
+(footer)
+  ajout du lien facebook
+  codage du formulaire de contact
