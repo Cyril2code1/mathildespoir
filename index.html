@@ -94,7 +94,7 @@
                 <p>Ma famille et mes amis ont créé cette association :<em> MATHILD'ESPOIR </em>afin de participer à mon bien être dans la vie de tous les jours.</p>
                 <p>Par cette association nous espérons faire connaître du grand public cette maladie qui est la mienne dans l’espoir de prouver que malgré ma différence je suis une petite fille épanouie et pleine de vie.</p> 
               </div>
-              <button mx-auto><a href="#accueil">Retour</a></button>
+              <button><a href="#accueil">Retour</a></button>
         </section>
 
 <!-- illness anchor              -->
@@ -123,7 +123,7 @@
           <p> L’origine de l’hémiplégie alternante fut longtemps inconnue. <br> Trois gènes (CACNA1A, SLC1A3, ATP1A2) avaient cependant déjà été identifiés dans quelques cas. <br> Ce n’est que récemment que le gène ATP1A31 à l’origine de 75% des cas d’hémiplégie alternante a été identifié. <br> Ce dernier est impliqué dans la production d’une protéine qui joue un rôle très important dans l’excitabilité neuronale.</p>
           <p> L’évolution de cette maladie est lente et variable d’un individu à un autre.</p>
             
-         <button mx-auto><a href="#accueil">Retour</a></button>
+         <button><a href="#accueil">Retour</a></button>
         </div>  
         </div> 
         </section>
@@ -132,45 +132,56 @@
 
 <!-- event anchor       -->
     <aside id="evenement">
-      <article>
-        <img class="img-fluid mx-auto" src="./img/les_iguanes.png" alt="logo_les_iguanes">
-        <p>Concert de charité pour <em>Mathild'espoir</em> avec le groupe de rock "<em>Les Iguanes</em>" </p>
-        <a href="./evenement.html" class="btn" role="button">En savoir +</a>
+      <article class="container">
+        <div class="row">
+          <h3 class="mt-3"><u>Evenements:</u></h3>
+          <img class="img-fluid mx-auto mt-3" src="./img/les_iguanes.png" alt="logo_les_iguanes">
+          <p>Concert de charité pour <em>Mathild'espoir</em> avec le groupe de rock "<em>Les Iguanes</em>" </p>
+        </div>
+        <div class="row justify-content-end">
+          <a href="./evenement.html" class="btn col-3 rounded-pill border border-3 mb-3" role="button">En savoir +</a>
+        </div>
+        <div class="row">
+          <button><a href="#accueil">Retour</a></button>
+        </div>
       </article>
     </aside>
 
 <!-- footer anchor       -->
-    <footer id="footer">
-      <p class="fw-bold">Nous rejoindre sur Facebook: 
-        <a href="https://www.facebook.com/people/MathildEspoir/100074102922035/" class="btn btn-primary" role="button" target="_blank">
-          <svg xmlns="http://www.w3.org/2000/svg" 
-            width="25" 
-            height="25" 
-            fill="currentColor" 
-            class="bi bi-facebook" 
-            viewBox="0 0 16 16">
-            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-          </svg>
-        </a>
-      </p>
-      <form action="#" method="post">         
-          <p class="fw-bold">Nous envoyez un message:</p>
-          <div class="mb-3">
-            <label for="name" class="form-label">Nom</label>
-            <input type="text" class="form-control" id="name" placeholder="prénom nom" name="name" aria-describedby="nameInfo" required>
-            <div id="nameInfo" class="form-text">Renseignez au moins un prénom ou un pseudo svp</div>
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="exemple@email.com" name="email" required>
-          </div>
-          <div class="mb-1">
-            <label for="message" class="form-label">Votre message</label>
-            <textarea name="message" class="form-control" id="message" rows="10" required></textarea>
-          </div>
-          <button type="submit">Envoyer</button>          
-      </form>
-
+    <footer id="footer"> 
+      <div class="container">
+        <div class="row gx-5">   
+          <form action="#" method="post" class="col-12 col-lg-6 mb-3">         
+            <p class="fw-bold mt-3">Nous envoyez un message:</p>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nom</label>
+              <input type="text" class="form-control" id="name" placeholder="prénom nom" name="name" aria-describedby="nameInfo" required>
+              <div id="nameInfo" class="form-text">Renseignez au moins un prénom ou un pseudo svp</div>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="exemple@email.com" name="email" required>
+            </div>
+            <div class="mb-1">
+              <label for="message" class="form-label">Votre message</label>
+              <textarea name="message" class="form-control" id="message" rows="10" required></textarea>
+            </div>
+            <button type="submit">Envoyer</button>          
+          </form>       
+          <p class="fw-bold col col-lg-6 my-3 d-lg-flex justify-content-center align-items-center"> Ou nous rejoindre sur Facebook: 
+            <a href="https://www.facebook.com/people/MathildEspoir/100074102922035/" class="btn btn-primary" role="button" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" 
+                width="25" 
+                height="25" 
+                fill="currentColor" 
+                class="bi bi-facebook" 
+                viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg>
+            </a>
+          </p>
+        </div>
+      </div>
 <!-- Copyright -->
       <div class="text-center p-3 bg-dark mt-3">
         <p class="text-light">© 2022 Copyright: Mathild'espoir </p>
