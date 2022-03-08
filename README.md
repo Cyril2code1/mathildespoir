@@ -1,4 +1,11 @@
-# Fichier README
+### Fichier README
+#  - nom du commit
+#  (branche utilisée)
+#    plus d'info
+# REM:  - les branches mergées n'ont volontairmeent pas été supprimées 
+#         afin de garder une trace de leur création
+#       - voici les commandes à utiliser pour le faire:
+#         git branch -d [nom de la branch]  
 
 - Initialisation du projet:
 (master)
@@ -34,3 +41,7 @@
   integration de bootstrap dans le code
   ajout du contenu
   lien index.html -> evenement.html
+
+- Correction de textes
+(master)
+
