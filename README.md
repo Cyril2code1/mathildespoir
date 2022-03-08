@@ -49,3 +49,6 @@
 
 - Correction README.md
 (master)
+
+- Correction position </main> dans index.html
+(correction)
