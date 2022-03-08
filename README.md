@@ -2,10 +2,9 @@
 #  - nom du commit
 #  (branche utilisée)
 #    plus d'info
-# REM:  - les branches mergées n'ont volontairmeent pas été supprimées 
+# REM:  - les branches mergées n'ont volontairement pas été supprimées 
 #         afin de garder une trace de leur création
-#       - voici les commandes à utiliser pour le faire:
-#         git branch -d [nom de la branch]  
+#       - voici la commande servant à le faire: git branch -d [nom de la branch]  
 
 - Initialisation du projet:
 (master)
@@ -48,3 +47,5 @@
 - Ajout de meta
 (master)
 
+- Correction README.md
+(master)
