@@ -45,3 +45,6 @@
 - Correction de textes
 (master)
 
+- Ajout de meta
+(master)
+
