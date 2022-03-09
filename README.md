@@ -1,10 +1,7 @@
 ### Fichier README
 #  - nom du commit
 #  (branche utilisée)
-#    plus d'info
-# REM:  - les branches mergées n'ont volontairement pas été supprimées 
-#         afin de garder une trace de leur création
-#       - voici la commande servant à le faire: git branch -d [nom de la branch]  
+#    plus d'info 
 
 - Initialisation du projet:
 (master)
@@ -69,3 +66,7 @@
 
 - Mise en forme index.html
 (mise_en_forme)
+
+- Modification du README
+(master)
+  suppression des branches de travail d'où suppression d'info non pertinente dans le README
