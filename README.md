@@ -80,3 +80,6 @@
   
 - Modification du bouton "Faire un don"
 (master)
+
+- Modification des boutons "retour à l'accueil" de la page index.html
+(master) 
