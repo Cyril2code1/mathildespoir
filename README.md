@@ -85,4 +85,7 @@
 (master) 
 
 - Modification du boutton "En savoir +" de la catégorie évènement de la page index.html
-(master) 
+(master)
+
+- Espacement du logo facebook dans la partie contact de la page index.html
+(master)
