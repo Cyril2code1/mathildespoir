@@ -74,3 +74,7 @@
 - Ajout de meta dans la page evenement.html
 (master)
   les meta avaient été oubliées dans la page evenement.html
+
+- Mise en forme evenement.html
+(mise_en_page)
+  
