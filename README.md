@@ -78,3 +78,5 @@
 - Mise en forme evenement.html
 (mise_en_page)
   
+- Modification du bouton "Faire un don"
+(master)
