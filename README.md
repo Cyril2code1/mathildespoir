@@ -83,3 +83,6 @@
 
 - Modification des boutons "retour à l'accueil" de la page index.html
 (master) 
+
+- Modification du boutton "En savoir +" de la catégorie évènement de la page index.html
+(master) 
