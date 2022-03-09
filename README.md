@@ -70,3 +70,7 @@
 - Modification du README
 (master)
   suppression des branches de travail d'où suppression d'info non pertinente dans le README
+
+- Ajout de meta dans la page evenement.html
+(master)
+  les meta avaient été oubliées dans la page evenement.html
