@@ -89,3 +89,10 @@
 
 - Espacement du logo facebook dans la partie contact de la page index.html
 (master)
+
+- mise en ligne sur github
+(master)
+	push du projet sur github
+	création de la branche gh-pages
+	
+	
